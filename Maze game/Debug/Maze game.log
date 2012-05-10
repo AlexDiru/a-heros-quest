@@ -1,0 +1,128 @@
+﻿Build started 10/05/2012 21:03:10.
+     1>Project "C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Maze game\Maze game.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Maze game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cls.cpp consoleColour.cpp entity.cpp fileexception.cpp game.cpp item.cpp Main.cpp map.cpp mazegenerator.cpp
+         mazegenerator.cpp
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\mazegenerator.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\mazegenerator.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+         map.cpp
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(45): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(252): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(272): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(274): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(285): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\map.cpp(292): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\formatinputcommand.h(13): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(30): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(54): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(98): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(155): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(194): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\main.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+         item.cpp
+         game.cpp
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(5): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(24): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(57): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(93): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(160): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(184): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(188): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(211): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(222): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(239): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(263): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(267): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(290): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(301): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(306): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\numericfunctions.h(21): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\game.cpp(222) : see reference to function template instantiation 'int round<T>(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+         fileexception.cpp
+         entity.cpp
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(16): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(21): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(26): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(142): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(143): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(229): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(301): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\alex\dropbox\work\programming\coursework\final builds\maze game small buildable\maze game\entity.cpp(324): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+         consoleColour.cpp
+         cls.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Maze game.exe.embed.manifest.res" "Debug\Maze game_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Maze game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.lib" /MACHINE:X86 "Debug\Maze game.exe.embed.manifest.res"
+         Debug\cls.obj
+         Debug\consoleColour.obj
+         Debug\entity.obj
+         Debug\fileexception.obj
+         Debug\game.obj
+         Debug\item.obj
+         Debug\Main.obj
+         Debug\map.obj
+         Debug\mazegenerator.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Maze game.exe.embed.manifest" /manifest "Debug\Maze game.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Maze game.exe.embed.manifest.res" "Debug\Maze game_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Maze game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.lib" /MACHINE:X86 "Debug\Maze game.exe.embed.manifest.res"
+         Debug\cls.obj
+         Debug\consoleColour.obj
+         Debug\entity.obj
+         Debug\fileexception.obj
+         Debug\game.obj
+         Debug\item.obj
+         Debug\Main.obj
+         Debug\map.obj
+         Debug\mazegenerator.obj
+         Maze game.vcxproj -> C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Debug\Maze game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Maze game.unsuccessfulbuild".
+         Touching "Debug\Maze game.lastbuildstate".
+     1>Done Building Project "C:\Users\Alex\Dropbox\Work\Programming\Coursework\Final Builds\Maze game Small Buildable\Maze game\Maze game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.37
